@@ -32,12 +32,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   Demo2Cell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([Demo2Cell class]) forIndexPath:indexPath];
+  [self _configureCell:cell atIndexPath:indexPath];
+  return cell;
+}
+
+- (void)_configureCell:(Demo2Cell *)cell atIndexPath:(NSIndexPath *)indexPath {
   [cell reset];
   [cell addLabel:indexPath];
   [cell addImage1];
   [cell addImage2];
   [cell addImage3];
-  return cell;
 }
 
 @end
