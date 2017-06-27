@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0009F1E61F024F4B002FEE09 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0009F1E51F024F4B002FEE09 /* Demo2ViewController.m */; };
 		00E215901F00F17F00667DE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E2158F1F00F17F00667DE8 /* AppDelegate.m */; };
 		00E215931F00F17F00667DE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E215921F00F17F00667DE8 /* ViewController.m */; };
 		00E215961F00F17F00667DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E215941F00F17F00667DE8 /* Main.storyboard */; };
 		00E215981F00F17F00667DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E215971F00F17F00667DE8 /* Assets.xcassets */; };
 		00E2159B1F00F17F00667DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E215991F00F17F00667DE8 /* LaunchScreen.storyboard */; };
 		00E2159E1F00F17F00667DE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E2159D1F00F17F00667DE8 /* main.m */; };
-		00E215A61F00F1C100667DE8 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E215A51F00F1C100667DE8 /* DemoViewController.m */; };
-		00E215AC1F00FE2B00667DE8 /* AsyncLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E215AB1F00FE2B00667DE8 /* AsyncLabel.m */; };
 		00E215BA1F01175600667DE8 /* STMAsyncLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = 00E215B41F0116F900667DE8 /* STMAsyncLayer.h */; };
 		00E215BB1F01175600667DE8 /* STMAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E215B51F0116F900667DE8 /* STMAsyncLayer.m */; };
 		00E215BC1F01175600667DE8 /* STMFPSLabel.h in Sources */ = {isa = PBXBuildFile; fileRef = 00E215B61F0116F900667DE8 /* STMFPSLabel.h */; };
@@ -24,6 +23,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0009F1E01F024F2E002FEE09 /* AsyncLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncLabel.h; sourceTree = "<group>"; };
+		0009F1E11F024F2E002FEE09 /* AsyncLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncLabel.m; sourceTree = "<group>"; };
+		0009F1E21F024F2E002FEE09 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		0009F1E31F024F2E002FEE09 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		0009F1E41F024F4B002FEE09 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		0009F1E51F024F4B002FEE09 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		00E2158B1F00F17F00667DE8 /* async-display.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "async-display.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E2158E1F00F17F00667DE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		00E2158F1F00F17F00667DE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,10 +39,6 @@
 		00E2159A1F00F17F00667DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E2159C1F00F17F00667DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E2159D1F00F17F00667DE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		00E215A41F00F1C100667DE8 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
-		00E215A51F00F1C100667DE8 /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		00E215AA1F00FE2B00667DE8 /* AsyncLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncLabel.h; sourceTree = "<group>"; };
-		00E215AB1F00FE2B00667DE8 /* AsyncLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncLabel.m; sourceTree = "<group>"; };
 		00E215B41F0116F900667DE8 /* STMAsyncLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMAsyncLayer.h; sourceTree = "<group>"; };
 		00E215B51F0116F900667DE8 /* STMAsyncLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMAsyncLayer.m; sourceTree = "<group>"; };
 		00E215B61F0116F900667DE8 /* STMFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMFPSLabel.h; sourceTree = "<group>"; };
@@ -57,6 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0009F1DF1F024F2E002FEE09 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				0009F1E01F024F2E002FEE09 /* AsyncLabel.h */,
+				0009F1E11F024F2E002FEE09 /* AsyncLabel.m */,
+				0009F1E21F024F2E002FEE09 /* DemoViewController.h */,
+				0009F1E31F024F2E002FEE09 /* DemoViewController.m */,
+				0009F1E41F024F4B002FEE09 /* Demo2ViewController.h */,
+				0009F1E51F024F4B002FEE09 /* Demo2ViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		00E215821F00F17F00667DE8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,14 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				00E215B31F0116F900667DE8 /* Source */,
+				0009F1DF1F024F2E002FEE09 /* Demo */,
 				00E2158E1F00F17F00667DE8 /* AppDelegate.h */,
 				00E2158F1F00F17F00667DE8 /* AppDelegate.m */,
 				00E215911F00F17F00667DE8 /* ViewController.h */,
 				00E215921F00F17F00667DE8 /* ViewController.m */,
-				00E215A41F00F1C100667DE8 /* DemoViewController.h */,
-				00E215A51F00F1C100667DE8 /* DemoViewController.m */,
-				00E215AA1F00FE2B00667DE8 /* AsyncLabel.h */,
-				00E215AB1F00FE2B00667DE8 /* AsyncLabel.m */,
 				00E215941F00F17F00667DE8 /* Main.storyboard */,
 				00E215971F00F17F00667DE8 /* Assets.xcassets */,
 				00E215991F00F17F00667DE8 /* LaunchScreen.storyboard */,
@@ -177,16 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0009F1E61F024F4B002FEE09 /* Demo2ViewController.m in Sources */,
 				00E215BA1F01175600667DE8 /* STMAsyncLayer.h in Sources */,
 				00E215BB1F01175600667DE8 /* STMAsyncLayer.m in Sources */,
 				00E215BC1F01175600667DE8 /* STMFPSLabel.h in Sources */,
 				00E215BD1F01175600667DE8 /* STMFPSLabel.m in Sources */,
 				00E215BE1F01175600667DE8 /* STMSentinel.h in Sources */,
 				00E215BF1F01175600667DE8 /* STMSentinel.m in Sources */,
-				00E215A61F00F1C100667DE8 /* DemoViewController.m in Sources */,
 				00E215931F00F17F00667DE8 /* ViewController.m in Sources */,
 				00E2159E1F00F17F00667DE8 /* main.m in Sources */,
-				00E215AC1F00FE2B00667DE8 /* AsyncLabel.m in Sources */,
 				00E215901F00F17F00667DE8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
